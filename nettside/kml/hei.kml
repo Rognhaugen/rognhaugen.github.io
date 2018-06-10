@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2"    
+     xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>Risbekkveien-Båntjern-Sogn-Risbekkveien</name>
+        
+                        <atom:author>             
+                <atom:name>
+      
+      
+    </atom:name>         
+            </atom:author> 
+        
+                            <atom:link href="http://www.ut.no/tur/2.11024/"/>
+            
+                            <TimeStamp>
+                <when>2018-06-10T11:05:43.4343045+00:00</when>
+            </TimeStamp> 
+            
+                
+        <description><![CDATA[<br/><p>Innholdet i denne filen er en tilpasning av det opprinnelige verket og tilgjengelig under CC BY-NC 4.0 lisens </p><p><br/>Converted using <b><a href='http://gpx2kml.com' title='Go to gpx2kml.com'>gpx2kml.com</a></b></p><br/>]]></description>
+        <visibility>1</visibility>
+        <open>1</open>
+        
+                <Style id="red">
+            <LineStyle>
+            <color>C81400FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_red">
+            <LineStyle>
+            <color>961400FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="green">
+            <LineStyle>
+            <color>C878FF00</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_green">
+            <LineStyle>
+            <color>9678FF00</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="blue">
+            <LineStyle>
+            <color>C8FF7800</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_blue">
+            <LineStyle>
+            <color>96FF7800</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="cyan">
+            <LineStyle>
+            <color>C8F0FF14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_cyan">
+            <LineStyle>
+            <color>96F0FF14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="orange">
+            <LineStyle>
+            <color>C81478FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_orange">
+            <LineStyle>
+            <color>961478FF</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="dark_green">
+            <LineStyle>
+            <color>C8008C14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_dark_green">
+            <LineStyle>
+            <color>96008C14</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="purple">
+            <LineStyle>
+            <color>C8FF7878</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_purple">
+            <LineStyle>
+            <color>96FF7878</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="pink">
+            <LineStyle>
+            <color>C8A078F0</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_pink">
+            <LineStyle>
+            <color>96A078F0</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="brown">
+            <LineStyle>
+            <color>C8143C96</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_brown">
+            <LineStyle>
+            <color>96143C96</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+                <Style id="dark_blue">
+            <LineStyle>
+            <color>C8F01414</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="route_dark_blue">
+            <LineStyle>
+            <color>96F01414</color>
+            <width>4</width>
+            </LineStyle>
+        </Style>
+        
+                
+                
+        <Folder>
+            <name>Tracks</name>
+            <description>A list of tracks</description>
+            <visibility>1</visibility>            
+            <open>0</open>
+                                                            
+                <Placemark>
+                    <visibility>0</visibility>            
+                    <open>0</open> 
+                    <styleUrl>#red</styleUrl>
+                    <name>Risbekkveien-Båntjern-Sogn-Risbekkveien</name>
+                    <description>Track no. 1</description>
+                    <LineString>
+                        <extrude>true</extrude>
+                        <tessellate>true</tessellate>
+                        <altitudeMode>clampToGround</altitudeMode> 
+                        <coordinates>
+                            10.711652,59.956923 10.712076,59.957175 10.712302,59.957533 10.71251,59.957901 10.712621,59.958143 10.712557,59.958434 10.712267,59.958684 10.712443,59.958999 10.712675,59.959237 10.712785,59.959467 10.712649,59.959748 10.712613,59.959973 10.712411,59.960239 10.712097,59.960504 10.71176,59.960762 10.711522,59.961031 10.711147,59.961269 10.710804,59.961499 10.710502,59.96173 10.710496,59.962088 10.710825,59.962355 10.710926,59.96261 10.711017,59.962955 10.711272,59.963263 10.71135,59.963543 10.711462,59.963903 10.711488,59.964207 10.711198,59.964483 10.710589,59.964546 10.70987,59.9647 10.709369,59.964811 10.708851,59.964927 10.708118,59.964979 10.707495,59.964987 10.708149,59.964964 10.708766,59.964914 10.709429,59.964811 10.709944,59.964748 10.710451,59.964623 10.710949,59.964543 10.711806,59.964416 10.712432,59.964347 10.713053,59.964262 10.713458,59.963837 10.71403,59.963812 10.71454,59.963968 10.715101,59.964012 10.715529,59.964152 10.716162,59.964217 10.717005,59.96436 10.717307,59.964615 10.717826,59.964867 10.718393,59.965231 10.718926,59.965483 10.719646,59.965671 10.72018,59.965835 10.720688,59.966042 10.720922,59.966239 10.721088,59.966505 10.721368,59.966804 10.721742,59.96663 10.721782,59.966187 10.721777,59.965797 10.721866,59.965547 10.721878,59.965254 10.721853,59.964843 10.721863,59.964453 10.721848,59.964166 10.721849,59.963832 10.721879,59.963531 10.721928,59.963159 10.72199,59.962736 10.721972,59.962305 10.721786,59.962033 10.721323,59.961808 10.720937,59.961594 10.720353,59.961321 10.719893,59.961093 10.719406,59.960844 10.718886,59.960585 10.718468,59.960381 10.717738,59.960055 10.71726,59.959782 10.716795,59.959539 10.716228,59.959244 10.715697,59.959001 10.715206,59.958744 10.71497,59.958553 10.714723,59.958188 10.714314,59.957871 10.713897,59.95765 10.713358,59.95747 10.712723,59.957178 10.712243,59.957118 10.71174,59.956886 10.711353,59.956691                             
+                        </coordinates>
+                    </LineString>
+                </Placemark>
+                                        
+        </Folder>
+                
+        <LookAt>
+            <longitude>10.7147425</longitude>            
+            <latitude>59.9617475</latitude>             
+            <altitude>0</altitude>               
+            <heading>0</heading>               
+            <tilt>45</tilt>
+            <range>642</range>                    
+            <altitudeMode>clampToGround</altitudeMode> 
+        </LookAt>
+    </Document>
+</kml>
