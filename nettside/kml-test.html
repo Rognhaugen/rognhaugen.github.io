@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <title>Directions service</title>
+    <title>KML Layers</title>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -22,24 +22,23 @@
     <div id="map"></div>
     <script>
 
-      function initMap() {
-        var directionsService = new google.maps.DirectionsService;
-        var directionsDisplay = new google.maps.DirectionsRenderer;
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 7,
-          center: {lat: 41.85, lng: -87.65},
-          mapTypeId: 'terrain'
-        });
+    function initMap() {
+      var directionsService = new google.maps.DirectionsService;
+      var directionsDisplay = new google.maps.DirectionsRenderer;
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 7,
+        center: {lat: 41.85, lng: -87.65},
+        mapTypeId: 'terrain'
+      });
 
         var ctaLayer = new google.maps.KmlLayer({
-            url: 'https://rognhaugen.github.io/nettside/kml/hei.kml',
-            map: map
+          url: 'https://rognhaugen.github.io/nettside/kml/hei.kml',
+          map: map
         });
 
         directionsDisplay.setMap(map);
         calculateAndDisplayRoute(directionsService, directionsDisplay);
       }
-
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         directionsService.route({
