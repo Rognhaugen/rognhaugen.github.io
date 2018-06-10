@@ -7,11 +7,11 @@
       (or edited) directly in KML.</description>
     <Style id="yellowLineGreenPoly">
       <LineStyle>
-        <color>50000000</color>
+        <color>64003214</color>
         <width>4</width>
       </LineStyle>
       <PolyStyle>
-        <color>50000000</color>
+        <color>64003214</color>
       </PolyStyle>
     </Style>
     <Placemark>
