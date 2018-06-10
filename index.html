@@ -21,10 +21,6 @@
   <body>
     <div id="map"></div>
     <script>
-    var ctaLayer = new google.maps.KmlLayer({
-        url: 'kml/hei.kml',
-        map: map
-    });
 
       function initMap() {
         var directionsService = new google.maps.DirectionsService;
@@ -37,6 +33,11 @@
         directionsDisplay.setMap(map);
         calculateAndDisplayRoute(directionsService, directionsDisplay);
       }
+
+      var ctaLayer = new google.maps.KmlLayer({
+          url: 'nettside/kml/hei.kml',
+          map: map
+      });
 
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
