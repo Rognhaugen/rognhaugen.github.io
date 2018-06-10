@@ -20,19 +20,22 @@
   </head>
   <body>
     <div id="map"></div>
+    <div id="panel"></div>
     <script>
+
+    var startsted = window.location.hash.substr(1);
+    startsted = startsted.replace(/\s/g, '');
 
     function initMap() {
       var directionsService = new google.maps.DirectionsService;
       var directionsDisplay = new google.maps.DirectionsRenderer;
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 7,
-        center: {lat: 41.85, lng: -87.65},
         mapTypeId: 'terrain'
       });
 
         var ctaLayer = new google.maps.KmlLayer({
-          url: 'https://rognhaugen.github.io/nettside/kml/hei.kml',
+          url: 'https://folk.uio.no/sigurro/hei.kml',
           map: map
         });
 
@@ -42,8 +45,8 @@
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         directionsService.route({
-          origin: 'Sognsvan',
-          destination: 'Forskningsparken',
+          origin: startsted,
+          destination: '59.9675700864553, 10.7337434811281',
           travelMode: 'TRANSIT'
         }, function(response, status) {
           if (status === 'OK') {
@@ -53,6 +56,18 @@
           }
         });
       }
+
+          function writeDirectionsSteps(steps) {
+      var directions = document.getElementById('panel');
+      directions.innerHTML = '';
+      for (var i = 0; i < steps.length; i++) {
+        directions.innerHTML += '<br/><br/>' + steps[i].instructions + '<br/>' + steps[i].distance.text;
+        // if .transit property exists
+        if (!!steps[i].transit) {
+          directions.innerHTML += '<br/>' + steps[i].transit.arrival_stop.name;
+        }
+      }
+    }
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwPtonO4ykDdcyqjxs8yhedQg9xfPvVXA&callback=initMap">
