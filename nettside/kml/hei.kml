@@ -10,9 +10,7 @@
         <color>64003214</color>
         <width>4</width>
       </LineStyle>
-      <PolyStyle>
-        <color>64003214</color>
-      </PolyStyle>
+      
     </Style>
     <Placemark>
       <name>Absolute Extruded</name>
