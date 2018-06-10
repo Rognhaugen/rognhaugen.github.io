@@ -6,10 +6,6 @@
       set to 0. If you want to create tessellated lines, they must be authored
       (or edited) directly in KML.</description>
     <Style id="yellowLineGreenPoly">
-      <LineStyle>
-        <color>64003214</color>
-        <width>4</width>
-      </LineStyle>
       
     </Style>
     <Placemark>
